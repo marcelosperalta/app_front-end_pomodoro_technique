@@ -1,114 +1,72 @@
 :link: https://marceloperalta-moveit.vercel.app/
 
-# [Next Level Week 04](https://nextlevelweek.com/)
+# Pomodoro Technique App
 
-_trilha:_  
+A Pomodoro Technique App built with **[HTML](https://whatwg.org/)**, **[CSS](https://www.w3.org/Style/CSS/)**, **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**, **[TypeScript](https://www.typescriptlang.org/)**, **[React](https://reactjs.org/)**, and **[Node.js](https://nodejs.org/)**.  
 
-**React**  
+<br>
 
-_app:_  
+<div align="center">
+    <img src="./readme/logo_html.png" width="70">
+    <img src="./readme/logo_css.png" width="70">
+    &nbsp;
+    <img src="./readme/logo_javascript.png" width="70">
+    &nbsp;
+    &nbsp;
+    <img src="./readme/logo_typescript.png" width="70">
+    &nbsp;
+    <img src="./readme/logo_react.png" width="70">
+    &nbsp;
+    <img src="./readme/logo_nodejs.png" width="70">
+</div>
 
-**Pomodoro Technique**  
+<br>
 
-_screenshot:_  
+## :mortar_board: **_bootcamp:_**  
 
-![pomodoro](./readme/screenshot.PNG)
+### [Rocketseat](https://rocketseat.com.br/)
 
-### Environment
+#### [Next Level Week #4](https://nextlevelweek.com/)
 
-- Visual Studio Code;
-- Node + NPM;
-- Yarn;
-- TypeScript;
-- React;
-- Next.js.
+*React* with [Diego Fernandes](https://github.com/diego3g)  
 
-## Aula 1 - 22.02.2021 - Rumo ao próximo nível 
+![nlw4](./readme/nlw4.jpg)
+<br>
 
-**folder**
+## :camera: **_screenshots:_**  
 
-moveit
+![1](./readme/screenshot1.PNG)  
 
-**install**  
+![2](./readme/screenshot2.PNG)  
 
-```
-yarn create react-app moveit --template=typescript
-```
+![3](./readme/screenshot3.PNG)  
+<br>
 
-**start**  
+## :wrench: **_tools**  
 
-```
-cd moveit
-```
+[Microsoft Edge](https://www.microsoft.com/en-us/edge)  
 
-```
-yarn start
-```
+[Google Chrome](https://www.google.com/chrome/)  
 
-## Aula 2 - 23.02.2021 - Desvendando o Next.js
+[Visual Studio Code](https://code.visualstudio.com/)  
 
-- [SPA - Single-page application](https://en.wikipedia.org/wiki/Single-page_application)  
-- [SSR - Server-side rendering](https://en.wikipedia.org/wiki/Server-side_scripting)  
-- [SSG - Static site generators](https://www.netguru.com/blog/what-are-static-site-generators)  
+[Visual Studio Code Extension "Launchbase Theme"](https://marketplace.visualstudio.com/items?itemName=maykbrito.theme-launchbase)  
 
-The three most popular ways to start a React project are:  
+[Figma](https://www.figma.com/)  
 
-- SPA > [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app);  
-- SSG > [Gatsby](https://www.gatsbyjs.com/);  
-- SPA+SSR+SSG > [Next.js](https://nextjs.org/);  
+[js-cookie](https://github.com/js-cookie/js-cookie)
+<br>
 
-Migrate the project to Next.js:  
+## :dvd: **install**
 
-**folder**
-
-moveit-next
-
-**install**  
-
+on bash / terminal  
 ```
 yarn create next-app moveit-next
 ```
 
-rename from ```_app.js``` and ```index.js``` to ```_app.tsx``` and ```index.tsx```  
-
 ```
 yarn add typescript @types/react @types/react-dom @types/node -D
 ```
-
-**start**  
-
-```
-yarn dev
-```
-
-```
-http://localhost:3000/
-```
-
-### CSS
-
-[CSS Modules](https://github.com/css-modules/css-modules)  
-
-## Aula 3 - 24.02.2021 - Contexto e componentes
-
-[useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect)  
-[createContext](https://reactjs.org/docs/context.html)  
-
-## Aula 4 - 25.02.2021 - Melhorando a usabilidade da aplicação
-
-[createContext](https://reactjs.org/docs/context.html)  
-
-## Aula 5 - 26.02.2021 - Próximo nível com React
-
-[localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)  
-[sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)  
-[IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)  
-[Web SQL Database](https://www.w3.org/TR/webdatabase/)  
-[Cookies](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies)  
-
-### Cookies
-
-[js-cookie](https://github.com/js-cookie/js-cookie)  
 
 ```
 yarn add js-cookie
@@ -117,16 +75,29 @@ yarn add js-cookie
 ```
 yarn add @types/js-cookie -D
 ```
+<br>
 
-### Deploy
+## :runner: **_run the project:_**  
 
-[netlify](https://www.netlify.com/)  
-[Vercel](https://vercel.com/)  
+on bash / terminal  
+```
+cd moveit-next
+```
 
-#### Vercel
+```
+yarn start
+```
+
+```
+http://localhost:3000/
+```
+<br>
+
+## :rocket: **_deploy to [Vercel](https://vercel.com/):_**
 
 [Vercel CLI](https://vercel.com/download)  
 
+on bash / terminal  
 ```
 npm i -g vercel
 ```
@@ -139,10 +110,6 @@ vercel -h
 vercel login
 ```
 
-_on GitHub, give access to Vercel on your repository:_  
-
-Settings > Applications > Installed GitHub Apps > Vercel > Configure > Repository access
-
 _from you project folder path:_  
 
 ```
@@ -153,16 +120,44 @@ cd moveit-next
 vercel
 ```
 
-_project updates:_  
+_project update:_  
 
-stage:  
-
+stage  
 ```
 vercel
 ```
 
-prod:  
-
+prod  
 ```
 vercel --prod
 ```
+<br>
+
+## :green_book: **_concepts:_**  
+
+[SPA - Single-page application](https://en.wikipedia.org/wiki/Single-page_application)  
+[SSR - Server-side rendering](https://en.wikipedia.org/wiki/Server-side_scripting)  
+[SSG - Static site generators](https://www.netguru.com/blog/what-are-static-site-generators)  
+
+The three most popular ways to start a React project are:  
+
+- SPA > [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app);  
+- SSG > [Gatsby](https://www.gatsbyjs.com/);  
+- SPA+SSR+SSG > [Next.js](https://nextjs.org/);  
+
+[CSS Modules](https://github.com/css-modules/css-modules)  
+
+[useEffect](https://reactjs.org/docs/hooks-reference.html#useeffect)  
+[createContext](https://reactjs.org/docs/context.html)  
+
+[localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)  
+[sessionStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)  
+[IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)  
+[Web SQL Database](https://www.w3.org/TR/webdatabase/)  
+[Cookies](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies)  
+
+## :blue_book: **_references:_**  
+
+[How to Write an Awesome GitHub README](https://healeycodes.com/github/beginners/tutorial/productivity/2019/04/14/writing-an-awesome-github-readme.html)  
+
+[EMOJI CHEAT SHEET](https://www.webfx.com/tools/emoji-cheat-sheet/)  
