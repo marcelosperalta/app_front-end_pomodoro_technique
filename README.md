@@ -114,7 +114,7 @@ vercel -h
 vercel login
 ```
 
-_from you project folder path:_  
+_from your project folder:_  
 
 ```
 cd moveit-next
