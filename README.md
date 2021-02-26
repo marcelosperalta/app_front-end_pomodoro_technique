@@ -1,3 +1,5 @@
+:link: https://marcelosperalta-moveit.vercel.app/
+
 # [Next Level Week 04](https://nextlevelweek.com/)
 
 _trilha:_  
@@ -142,6 +144,10 @@ _on GitHub, give access to Vercel on your repository:_
 Settings > Applications > Installed GitHub Apps > Vercel > Configure > Repository access
 
 _from you project folder path:_  
+
+```
+cd moveit-next
+```
 
 ```
 vercel
