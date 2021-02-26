@@ -152,3 +152,17 @@ cd moveit-next
 ```
 vercel
 ```
+
+_project updates:_  
+
+stage:  
+
+```
+vercel
+```
+
+prod:  
+
+```
+vercel --prod
+```
