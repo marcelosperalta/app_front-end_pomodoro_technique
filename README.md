@@ -30,7 +30,7 @@ A Pomodoro Technique App built with **[HTML](https://whatwg.org/)**, **[CSS](htt
 
 *React* with [Diego Fernandes](https://github.com/diego3g)  
 
-![nlw4](./readme/nlw4.jpg)
+![nlw4](./readme/nlw4.png)
 <br>
 
 ## :camera: **_screenshots:_**  
@@ -40,9 +40,13 @@ A Pomodoro Technique App built with **[HTML](https://whatwg.org/)**, **[CSS](htt
 ![2](./readme/screenshot2.PNG)  
 
 ![3](./readme/screenshot3.PNG)  
+
+![4](./readme/screenshot4.PNG)  
+
+![5](./readme/screenshot5.PNG)  
 <br>
 
-## :wrench: **_tools**  
+## :wrench: **_tools_**  
 
 [Microsoft Edge](https://www.microsoft.com/en-us/edge)  
 
@@ -57,7 +61,7 @@ A Pomodoro Technique App built with **[HTML](https://whatwg.org/)**, **[CSS](htt
 [js-cookie](https://github.com/js-cookie/js-cookie)
 <br>
 
-## :dvd: **install**
+## :dvd: **_install_**
 
 on bash / terminal  
 ```
@@ -138,12 +142,10 @@ vercel --prod
 [SPA - Single-page application](https://en.wikipedia.org/wiki/Single-page_application)  
 [SSR - Server-side rendering](https://en.wikipedia.org/wiki/Server-side_scripting)  
 [SSG - Static site generators](https://www.netguru.com/blog/what-are-static-site-generators)  
-
 The three most popular ways to start a React project are:  
-
-- SPA > [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app);  
-- SSG > [Gatsby](https://www.gatsbyjs.com/);  
-- SPA+SSR+SSG > [Next.js](https://nextjs.org/);  
+SPA > [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app);  
+SSG > [Gatsby](https://www.gatsbyjs.com/);  
+SPA+SSR+SSG > [Next.js](https://nextjs.org/);  
 
 [CSS Modules](https://github.com/css-modules/css-modules)  
 
